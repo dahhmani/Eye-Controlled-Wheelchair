@@ -1,0 +1,20 @@
+DATABASE Eye
+QUERY_TYPE  visual
+CLASS_NO 4
+
+DBGOUT 1
+# Put any nonzero number to enable DbgOut signals..
+
+QUERY	0 - 119
+# this basically means to query ALL items in the database..
+% this is a 4-class database with eye images. 
+# 0 - Right
+# 1 - Forward
+# 2 - Left
+# 3 - Closed 
+
+CLASS 0	0 - 29
+CLASS 1	30 - 59
+CLASS 2	60 - 89
+CLASS 3	90 - 119
+
